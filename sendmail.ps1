@@ -1,7 +1,8 @@
-$XamlPath = "GUI\WindowMessage.xaml"
-
 . (".\load_wpf.ps1")
 
+$XamlPath = "GUI\WindowMessage.xaml"
+
+LoadWPF -XamlPath $XamlPath
 # Events
 
 $BtnSend.Add_Click({
